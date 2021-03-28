@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=3.0">
+        <link rel="stylesheet" href="./style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+        <title>Document</title>
+    </head>
+    <body> 
+
+        <!--TITLE-->
+        <header>
+            <div class="container">
+                <h1>Treasures of Our World</h1>
+            </div>
+        </header>
+
+        <nav id="navbar">
+            <div class="container">
+                <ul>
+                    <li><a href="#">Top 5 Museums</a></li>
+                    <li><a href="#">Most Visited</a></li>
+                    <li><a href="#">Awesome History</a></li>
+                    <li><a href="#">Virtual Tour</a></li>
+                    <li><a href="#">Visit The 7 Wonders Of The world</a></li>
+                </ul>
+                
+            </div>
+        </nav>
+
+        <section class="intro">
+            <div class="container">
+                <h1>Feed Your Curiosity</h1>
+                <p>Be apart of the world's finest attractions led be your personl expert guide.</p>
+            </div>
+        </section>
+            
+        <div class="container w-50 text-center mt-1 d-flex flex-column"> 
+            <h2 class= 'mb-3'>Select An Expert Guide</h2>
+            <input class="form-control mb-3" type="number" placeholder="Number of Guides"/>
+            <button id="generate" Class="btn btn-success text-white px-5">Generate</button>
+        </div>
+
+        <!-- CARDS -->
+        <div class="container p-4">
+            <div class="row">
+
+                <!-- Generated HTML -->
+                <div class ='col-12 col-sm-6 col-md-4'>
+                    <button id='btn-delete' class='btn btn-danger w-100'>Delete</button>
+                    <div class="my-1 p-2">
+                        <img class="card-img-top" alt="user" src="img/user.jpg">
+                        <div class="card-body">
+                            <h3 class="card-title">John Doe</h3>
+                            <p class="card-text">Avid Hiker, Biker and Traveller</p>
+                            <button class="btn btn-primary">Email</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Generated HTML ends -->
+
+
+            </div>
+
+
+
+        </div>
+
+         <main class="main">
+            <div class="about">
+                <h2>About Us</h2>
+                <p>From the East to the West the world's museums are rich
+                    in history, culture and new age art. Sparking our facination 
+                        in a myriad of ways. Come tour and enjoy learning virtually or literally.
+                </p>
+                <p>Go beyond borders virtually or literally to experience our 
+                    national and international museum treasures.
+                </p>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <img src="images/louvre_museum.JPG" alt="">
+                    <h2>Louvre Museum</h2>
+                    <p>Being one of the wolds most historic monument since its founding in 1793, 
+                        the Louvre is located in Paris, France. With over 35000 works on 
+                            display and home to the Mona Lisa it's ranked 1st nationally and globally. 
+                            </p>
+                </div>
+                <div class="card">
+                    <img src="images/vatican_museum.JPG" alt="">
+                    <h3>Vatican Museum</h3>
+                    <p>The Vatican Historical Museums was established in 1506 with a wide selection of 
+                            public art and sculpture museums located in Vatican City. It displays a wide selection
+                            of works collected by the Catholic Church over centuries. The Vatican Museums is home
+                            to some of the greatest Roman sculptures and masterpieces from the Renaissance period.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="images/russian_her_museum.JPG" alt="">
+                    <h4>Hermitage Museum</h4>
+                    <p>The Hermitage Museum was founded in 1764 and is considered the second largest art museum
+                        in the world. It was established by Empress Catherine the Great after she recieved a wide
+                        collection of paintings from the Berlin merchant Johann Ernst Gotzkowsky.
+                    </p>
+                </div>
+            </div>>
+        </main>
+    </body>
+
+</html>
