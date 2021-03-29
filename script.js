@@ -4,7 +4,7 @@ $(document).ready(function () {
         $("input").val(""); 
  
         $.ajax({
-            url: "https://randomuser.me/api/?results=3",
+            url: "https://randomuser.me/api/?results=10",
             dataType: "json",
             success: function(res) {
                 var data = res.results
@@ -28,7 +28,7 @@ $(document).ready(function () {
             }
         });
     });
-    //remove cards on click
+    
     $(document).on("click", "#btn-delete", function(){
         $(this).parent().remove()
     })
